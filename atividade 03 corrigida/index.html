@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atividade 03</title>
+    <link rel="stylesheet" href="formatacao.css" />
+  </head>
+  <body>
+    <div class="centralizar" id="cabecalho">
+      <h1>Formulário</h1>
+    </div>
+    <div class="centralizar" id="fundo">
+      <form autocomplete="off" method="post" action="sucesso.html"> <!-- caso queira ligar a caixa coloque "on" em autocomplete-->
+        <fieldset>
+          <legend>dados pessoais</legend>
+          <p>
+            nome:
+            <input type="text" name="nome" id="nome" />
+          </p>
+          <p>
+            sobrenome:
+            <input type="text" name="sobrenome" id="sobrenome" />
+          </p>
+          <p>
+            cpf:
+            <input type="text" name="cpf" id="cpf" />
+          </p>
+          <p>
+            email:
+            <input type="text" name="email" id="email" />
+          </p>
+          <p>
+            senha:
+            <input type="password" name="senha" id="senha" required minlength="8"/>  
+          </p>
+          <p>Sexo:
+            <input type="radio" name="sexo" id="smas">Masculino
+            <input type="radio" name="sexo" id="sfem">Feminino
+          </p>
+        </fieldset>
+
+        <fieldset>
+          <legend>Localização</legend>
+          <p>
+            Cidade:<select>
+              <option value="selecione">selecione</option>  
+              <option value="cidade 1">Taguatinga</option>
+              <option value="cidade 2">Águas Claras</option>
+              <option value="cidade 3">Ceilândia</option>
+              <option value="cidade 4">Planaltina</option>
+              <option value="cidade 5">Paranoá</option>
+              <option value="cidade 6">Lago Norte</option>
+              <option value="cidade 7">Gama</option>
+              <option value="cidade 8">Recanto das Emas</option>
+              <option value="cidade 9">Sobradinho</option>
+            </select>
+          </p>
+          <p>Endereço: 
+            <input type="text" name="Endereço" id="Endereço"</p>
+          <p>Endereço: 
+            <input type="text" name="Endereço" id="Endereço"</p>   
+          <p>Cep: 
+            <input type="text" name="Cep" id="Cep"</p>
+        </fieldset>
+        <fieldset>
+          Quais gêneros musicas você gosta?:<legend>Preferências e Interesses</legend>
+          <p>Rock:
+            <input type="checkbox" name="rock" id="musica">
+          </p>
+          <p>Pop:
+            <input type="checkbox" name="Pop" id="musica">
+          </p>
+          <p>Hip-Hop:
+            <input type="checkbox" name="Hip-Hop" id="musica">
+          </p>
+          <p>Jazz:
+            <input type="checkbox" name="Jazz" id="musica">
+          </p>
+          <p>Eletrônica:
+            <input type="checkbox" name="Eletrônica" id="musica">
+          </p>
+        </fieldset>
+        <fieldset>
+          Quais alimentos você gosta?::<legend>Alimentação</legend>
+          <p>Italiana:
+            <input type="checkbox" name="Italiana" id="comida">
+          </p>
+          <p>Japonesa:
+            <input type="checkbox" name="Japonesa" id="comida">
+          </p>
+          <p>Brasileira:
+            <input type="checkbox" name="Brasileira" id="comida">
+          </p>
+          <p>Vegetariana:
+            <input type="checkbox" name="Vegetariana" id="comida">
+          </p>
+          <p>Chinesa:
+            <input type="checkbox" name="Chinesa" id="comida">
+          </p>
+        </fieldset>
+        <input type="submit" value="enviar" />
+        <input type="reset" value="reset" />
+      </form>
+    </div>
+  </body>
+</html>
