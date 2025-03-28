@@ -1,0 +1,20 @@
+.centralizar{
+    text-align: center;
+}
+#cabecalho{
+    background-color: rgb(102, 80, 104);
+    color: aliceblue;
+    -webkit-text-stroke: 1px black;
+} 
+#fundo{
+    background-color: rgb(240, 235, 235);
+    margin: 50px auto;
+    padding: 20px;
+    width: 900px;
+    border-radius: 10px;
+   
+}
+body{
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+}
